@@ -1,0 +1,52 @@
+.partner {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.partner h1 {
+    font-weight: bold;
+    font-size: 1.1em !important;
+    padding-top: 1em;
+    color: #444 !important;
+    min-height: 2.5em;
+}
+
+.partner p {
+    font-size: 0.9em;
+    color: #666;
+    text-align: left;
+}
+
+.logo {
+    min-height: 80px;
+    vertical-align: middle;
+}
+
+.logo img {
+    margin: auto;
+    vertical-align: middle;
+}
+
+body {
+    background-color: #f7f7f7;
+    min-height: 100% !important;
+    height: 100%;
+}
+
+.container {
+    background-color: #fff;
+    min-height: 100% !important;
+    height: 100%;
+    padding: 2em;
+}
+
+.copyright {
+    margin-top: 4em;
+    border-top: 1px solid #ccc;
+    font-size: 0.8em;
+}
+
+.copyright p {
+    margin-top: 1em;
+    color: #999;
+}
