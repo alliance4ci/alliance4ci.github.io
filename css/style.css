@@ -77,3 +77,42 @@ body {
     color: #333;
     text-decoration: none;
 }
+
+.quotation{
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    quotes: "\201C""\201D""\2018""\2019";
+    line-height: 1.4;
+}
+
+.quotation:before {
+    content: open-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: -5px;
+    position: relative;
+    top: 10px;
+    color: #ccc;
+    font-size: 2em;
+}
+
+.quotation::after {
+    content: close-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: 5px;
+    position: relative;
+    top: 10px;
+    color: #ccc;
+    font-size: 2em;
+}
+
+footer{
+    margin-top: 1em;
+    text-align: right;
+    font-size: 0.8em;
+    font-style: italic;
+}
