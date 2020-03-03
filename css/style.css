@@ -1,3 +1,32 @@
+html {
+    scroll-behavior: smooth !important;
+}
+
+ul.menu {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    float: right;
+}
+
+ul.menu li {
+    display: block;
+    margin-bottom: 0.2em;
+    padding-left: 0.7em;
+    font-weight: bold;
+}
+
+a {
+    color: #4DA7AC;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3369CD;
+    text-decoration: underline;
+}
+
 .partner {
     text-align: center;
     margin-top: 1em;
@@ -78,11 +107,11 @@ body {
     text-decoration: none;
 }
 
-.quotation{
+.quotation {
     font-size: 1em;
     padding: 0;
     margin: 0;
-    quotes: "\201C""\201D""\2018""\2019";
+    quotes: "\201C" "\201D" "\2018" "\2019";
     line-height: 1.4;
 }
 
@@ -110,7 +139,11 @@ body {
     font-size: 2em;
 }
 
-footer{
+#events h1 {
+    font-size: 2em;
+}
+
+footer {
     margin-top: 1em;
     text-align: right;
     font-size: 0.8em;
