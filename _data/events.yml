@@ -1,0 +1,29 @@
+- name: "2020 NSF Large Facilities Workshop"
+  url: "https://www.largefacilitiesworkshop.com"
+  date: "April 14-16, 2020"
+  location: "Alexandria, VA"
+
+- name: "Summer 2020 Gateway Development Internships"
+  url: "https://sciencegateways.org/engage/internships"
+  date: "April 30, 2020"
+  location: "San Diego, CA"
+
+- name: "Practice & Experience in Advanced Research Computing (PEARC20)"
+  url: "https://pearc.acm.org"
+  date: "July 26–30, 2020"
+  location: "Portland, OR"
+
+- name: "2020 NSF Cybersecurity Summit for Large Facilities and Cyberinfrastructure"
+  url: "https://trustedci.org/2020-nsf-summit"
+  date: "September 22-24, 2020"
+  location: "Bloomington, IN"
+
+- name: "Gateways 2020"
+  url: "https://sciencegateways.org/web/gateways2020/welcome"
+  date: "October 19–21, 2020"
+  location: "Bethesda, MD"
+
+- name: "International Conference for High Performance Computing, Networking, Storage, and Analysis (SC20)"
+  url: "http://sc20.supercomputing.org"
+  date: "November 15–20, 2020"
+  location: "Atlanta, GA"

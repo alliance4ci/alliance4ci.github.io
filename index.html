@@ -1,3 +1,9 @@
+---
+layout: default
+type: home
+title: Alliance4CI
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -131,6 +137,12 @@
     <div class="row">
         <div id="events">
             <h1>Events</h1>
+            {% for item in site.data.events %}
+            <div class="five columns" style="margin-bottom: 1.5em">
+                <strong><a href="{{item.url}}" target="_blank">{{item.name}}</a></strong><br/>
+                {{item.date}}, {{item.location}}
+            </div>
+            {% endfor %}
         </div>
     </div>
 
