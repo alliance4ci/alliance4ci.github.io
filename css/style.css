@@ -149,3 +149,25 @@ footer {
     font-size: 0.8em;
     font-style: italic;
 }
+
+.alert {
+    margin-top: 2em;
+    background-color: rgb(240, 173, 78, 0.3);
+    border: 1px solid #f0ad4e;
+    padding: 1.5em 2em 1.5em 2em;
+    border-radius: 10px;
+    color: #9e4a1b;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.alert h1 {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.alert a {
+    color: #9e4a1b;
+    text-decoration: underline;
+    font-weight: bold;
+}
