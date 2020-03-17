@@ -171,3 +171,14 @@ footer {
     text-decoration: underline;
     font-weight: bold;
 }
+
+.alert ul {
+    padding-left: 2em;
+    line-height: 1.1em;
+    margin-bottom: 0;
+}
+
+.alert p {
+    margin: 0;
+    margin-bottom: 0.5em;
+}
