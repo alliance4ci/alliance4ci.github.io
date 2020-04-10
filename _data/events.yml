@@ -1,8 +1,3 @@
-- name: "2020 NSF Large Facilities Workshop"
-  url: "https://www.largefacilitiesworkshop.com"
-  date: "April 14-16, 2020"
-  location: "Alexandria, VA"
-
 - name: "Summer 2020 Gateway Development Internships"
   url: "https://sciencegateways.org/engage/internships"
   date: "April 30, 2020"
@@ -12,6 +7,11 @@
   url: "https://pearc.acm.org"
   date: "July 26–30, 2020"
   location: "Portland, OR"
+
+- name: "2020 NSF Large Facilities Workshop"
+  url: "https://www.largefacilitiesworkshop.com"
+  date: "September 1-3, 2020"
+  location: "Alexandria, VA"
 
 - name: "2020 NSF Cybersecurity Summit for Large Facilities and Cyberinfrastructure"
   url: "https://trustedci.org/2020-nsf-summit"
