@@ -51,8 +51,15 @@ title: Alliance4CI
                     Help with writing proposals related to COVID-19 is also available, but priority will be given to
                     active projects.
                 </p>
+                
+                <h3>Other Resources for Researchers</h3>
+                <ul style="margin-left: 2em">
+                    {% for n in site.data.covid-19-resources %}
+                    <li><a href="{{ n.website }}" target="_blank">{{ n.title }}</a></li>
+                    {% endfor %}
+                </ul>
             </div>
-
+                
             <p style="text-align: center; margin-top: 0em; padding: 3em">
                 The Alliance4CI is a partnership between three NSF-funded projects:
                 <a href="https://trustedci.org" target="_blank">Trusted CI</a>,
