@@ -1,165 +1,111 @@
 ---
 layout: default
-type: home
 title: Alliance4CI
 ---
 
-
-<div class="container">
-
-    <div class="row">
-        <div class="twelve columns">
-            <ul class="menu">
-                <li><a href="#events">Events</a></li>
-            </ul>
-        </div>
+<div class="row" style="top: 1em; position: absolute; right: 1em">
+    <div class="twelve columns">
+        <ul class="menu">
+            <li><a href="#events">Events</a></li>
+        </ul>
     </div>
+</div>
 
-    <div class="row">
-        <div class="twelve columns" style="margin-top: 2em; text-align: center">
-            <img src="images/alliance4ci-horizontal.png" width="500"/>
-
-            <div class="alert w3-panel w3-yellow">
-                <div style="font-size: 0.8em; text-align: right; position: relative; top: 0"><span><i>March 17, 2020</i></span>
-                </div>
-                <h1>Trusted CI, NSF CI CoE Pilot, and SGCI Offering Priority help to projects tackling COVID-19</h1>
-                <p>
-                    The <a href="http://cicoe-pilot.org" target="_blank">NSF Cyberinfrastructure Center of Excellence
-                    Pilot</a>, <a href="https://trustedci.org" target="_blank">Trusted CI</a>, and the
-                    <a href="https://sciencegateways.org" target="_blank">Science Gateways Community Institute</a>
-                    are all available to help the science community tackle research to address the coronavirus disease
-                    2019 (COVID-19) outbreak. If your project could benefit from expert cyberinfrastructure consulting
-                    in:
-                </p>
-                <ul>
-                    <li>data management and visualization,</li>
-                    <li>workflow management,</li>
-                    <li>use of cloud resources, high-performance clusters, or distributed resources;</li>
-                    <li>science gateway technology,</li>
-                    <li>cybersecurity, or</li>
-                    <li>compliance,</li>
-                </ul>
-                <p>
-                    please contact us for priority assistance. We are here to help.
-                </p>
-                <p>
-                    To request assistance, please send an email to
-                    <a href="mailto:covid19@trustedci.org?subject=COVID-19">covid19@trustedci.org</a> and we will
-                    be in contact.
-                </p>
-                <p>
-                    Help with writing proposals related to COVID-19 is also available, but priority will be given to
-                    active projects.
-                </p>
-                
-                <h3>Other Resources for Researchers</h3>
-                <ul style="margin-left: 2em">
-                    {% for n in site.data.covid-19-resources %}
-                    <li><a href="{{ n.website }}" target="_blank">{{ n.title }}</a></li>
-                    {% endfor %}
-                </ul>
-            </div>
-                
-            <p style="text-align: center; margin-top: 0em; padding: 3em">
-                The Alliance4CI is a partnership between three NSF-funded projects:
-                <a href="https://trustedci.org" target="_blank">Trusted CI</a>,
-                <a href="https://sciencegateways.org" target="_blank">Science Gateways Community Institute</a>
-                (SGCI), and the
-                <a href="https://cicoe-pilot.org" target="_blank">Cyberinfrastructure Center of Excellence Pilot</a>
-                (CI CoE Pilot). The Alliance4CI builds on and amplifies the alliance members' expertise in the
-                areas of cybersecurity, science gateways, and CI for the Large Facilities' data lifecycle. The
-                alliance strives to enhance Cyberinfrastructure (CI) for science, to serve as a resource for the
-                CI practitioners, and to build best practices around CI community engagement.
-            </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="four columns partner">
-            <div class="logo">
-                <img src="images/trustedci-logo.png" width="70"/>
-            </div>
-            <h1>Trusted CI</h1>
-            <p>
-                The mission of Trusted CI is to lead in the development of an NSF Cybersecurity Ecosystem with the
-                workforce, knowledge, processes, and cyberinfrastructure that enables trustworthy science and NSF’s
-                vision of a nation that is a global leader in research and innovation.
-            </p>
-        </div>
-        <!--        <div class="one column">&nbsp;</div>-->
-        <div class="four columns partner">
-            <div class="logo">
-                <br/>
-                <img src="images/sgci-logo.png" width="120"/>
-            </div>
-            <h1>Science Gateways Community Institute</h1>
-            <p>
-                The mission of SGCI is to provide resources, expertise, community support, and education to the creators
-                of gateways serving science and engineering research and education. Through these channels, we hope to
-                speed the development and application of more robust, less expensive, and more sustainable gateways.
-            </p>
-        </div>
-        <!--        <div class="one column">&nbsp;</div>-->
-        <div class="four columns partner">
-            <div class="logo">
-                <img src="images/cicoe-logo.png" width="80"/>
-            </div>
-            <h1>Cyberinfrastructure Center of Excellence Pilot</h1>
-            <p>
-                The mission of CI CoE is to provide leadership, expertise, and active support to cyberinfrastructure
-                practitioners at NSF Major Facilities and throughout the research ecosystem in order to enable ongoing
-                evolution of our technologies, our practices, and our field, ensuring the integrity and effectiveness of
-                the cyberinfrastructure upon which research and discovery depend.
-            </p>
-        </div>
-    </div>
-
-    <div class="row fullwidth">
-        <div class="six columns">
-            <h1>What is Cyberinfrastructure?</h1>
-            <blockquote>
-                <p class="quotation">
-                    Cyberinfrastructure consists of computing systems, data storage systems, advanced instruments and
-                    data repositories, visualization environments, and people, all linked together by software and high
-                    performance networks to improve research productivity and enable breakthroughs not otherwise
-                    possible.
-                </p>
-                <footer>
-                    — <a
-                        href="https://scholarworks.iu.edu/dspace/bitstream/handle/2022/12967/fp109a-stewart.pdf?sequence=1&isAllowed=y"
-                        target="_blank">C. A. Stewart et al.</a>
-                </footer>
-            </blockquote>
-        </div>
-        <div class="six columns">
-            <h1>What is a Gateway?</h1>
-            <blockquote>
-                <p class="quotation">
-                    Science gateways allow science &amp; engineering communities to access shared data, software,
-                    computing services, instruments, educational materials, and other resources specific to their
-                    disciplines.
-                </p>
-                <footer>– <a href="https://sciencegateways.org/" target="_blank">Science Gateways Community
-                    Institute</a>
-                </footer>
-            </blockquote>
-        </div>
-    </div>
-
-    <div class="row">
-        <div id="events">
-            <h1>Events</h1>
-            {% for item in site.data.events %}
-            <div class="five columns" style="margin-bottom: 1.5em">
-                <strong><a href="{{item.url}}" target="_blank">{{item.name}}</a></strong><br/>
-                {{item.date}}, {{item.location}}
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-
-    <div class="copyright">
-        <p>
-            &copy;2020 Alliance for Cyberinfrastructure. All rights reserved.
+<div class="row">
+    <div class="twelve columns" style="margin-top: 2em; text-align: center">
+        <p style="text-align: center; margin-top: 0em; padding: 3em">
+            The Alliance4CI is a partnership between three NSF-funded projects:
+            <a href="https://trustedci.org" target="_blank">Trusted CI</a>,
+            <a href="https://sciencegateways.org" target="_blank">Science Gateways Community Institute</a>
+            (SGCI), and the
+            <a href="https://cicoe-pilot.org" target="_blank">Cyberinfrastructure Center of Excellence Pilot</a>
+            (CI CoE Pilot). The Alliance4CI builds on and amplifies the alliance members' expertise in the
+            areas of cybersecurity, science gateways, and CI for the Large Facilities' data lifecycle. The
+            alliance strives to enhance Cyberinfrastructure (CI) for science, to serve as a resource for the
+            CI practitioners, and to build best practices around CI community engagement.
         </p>
+    </div>
+</div>
+<div class="row">
+    <div class="four columns partner">
+        <div class="logo">
+            <img src="images/trustedci-logo.png" width="70"/>
+        </div>
+        <h1>Trusted CI</h1>
+        <p>
+            The mission of Trusted CI is to lead in the development of an NSF Cybersecurity Ecosystem with the
+            workforce, knowledge, processes, and cyberinfrastructure that enables trustworthy science and NSF’s
+            vision of a nation that is a global leader in research and innovation.
+        </p>
+    </div>
+    <!--        <div class="one column">&nbsp;</div>-->
+    <div class="four columns partner">
+        <div class="logo">
+            <br/>
+            <img src="images/sgci-logo.png" width="120"/>
+        </div>
+        <h1>Science Gateways Community Institute</h1>
+        <p>
+            The mission of SGCI is to provide resources, expertise, community support, and education to the creators
+            of gateways serving science and engineering research and education. Through these channels, we hope to
+            speed the development and application of more robust, less expensive, and more sustainable gateways.
+        </p>
+    </div>
+    <!--        <div class="one column">&nbsp;</div>-->
+    <div class="four columns partner">
+        <div class="logo">
+            <img src="images/cicoe-logo.png" width="80"/>
+        </div>
+        <h1>Cyberinfrastructure Center of Excellence Pilot</h1>
+        <p>
+            The mission of CI CoE is to provide leadership, expertise, and active support to cyberinfrastructure
+            practitioners at NSF Major Facilities and throughout the research ecosystem in order to enable ongoing
+            evolution of our technologies, our practices, and our field, ensuring the integrity and effectiveness of
+            the cyberinfrastructure upon which research and discovery depend.
+        </p>
+    </div>
+</div>
+
+<div class="row fullwidth">
+    <div class="six columns">
+        <h1>What is Cyberinfrastructure?</h1>
+        <blockquote>
+            <p class="quotation">
+                Cyberinfrastructure consists of computing systems, data storage systems, advanced instruments and
+                data repositories, visualization environments, and people, all linked together by software and high
+                performance networks to improve research productivity and enable breakthroughs not otherwise
+                possible.
+            </p>
+            <footer>
+                — <a
+                    href="https://scholarworks.iu.edu/dspace/bitstream/handle/2022/12967/fp109a-stewart.pdf?sequence=1&isAllowed=y"
+                    target="_blank">C. A. Stewart et al.</a>
+            </footer>
+        </blockquote>
+    </div>
+    <div class="six columns">
+        <h1>What is a Gateway?</h1>
+        <blockquote>
+            <p class="quotation">
+                Science gateways allow science &amp; engineering communities to access shared data, software,
+                computing services, instruments, educational materials, and other resources specific to their
+                disciplines.
+            </p>
+            <footer>– <a href="https://sciencegateways.org/" target="_blank">Science Gateways Community
+                Institute</a>
+            </footer>
+        </blockquote>
+    </div>
+</div>
+
+<div class="row">
+    <div id="events">
+        <h1>Events</h1>
+        {% for item in site.data.events %}
+        <div class="five columns" style="margin-bottom: 1.5em">
+            <strong><a href="{{item.url}}" target="_blank">{{item.name}}</a></strong><br/>
+            {{item.date}}, {{item.location}}
+        </div>
+        {% endfor %}
     </div>
 </div>
